@@ -3,7 +3,7 @@
 ini_set("log_errors", "off");
 error_reporting(0);
 
-$apiKey = '7268205628:AAFGkYMSVt3KQjvU8HtbN1_HyatZ0LiWMGM'; // Replace with your actual API token
+$apiKey = '7920826872:AAEds7kSXubHL1KIUiYFYE3k6u6n3QVRYAs'; // Replace with your actual API token
 $update = json_decode(file_get_contents('php://input'));
 $username = isset($update->message->from->first_name) ? $update->message->from->first_name : 'User';
 $games_url = 'https://phenomenal-fudge-c5dfc2.netlify.app';
