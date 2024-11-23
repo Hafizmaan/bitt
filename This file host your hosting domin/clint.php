@@ -6,7 +6,7 @@ error_reporting(0);
 $apiKey = '7920826872:AAEds7kSXubHL1KIUiYFYE3k6u6n3QVRYAs'; // Replace with your actual API token
 $update = json_decode(file_get_contents('php://input'));
 $username = isset($update->message->from->first_name) ? $update->message->from->first_name : 'User';
-$games_url = 'https://phenomenal-fudge-c5dfc2.netlify.app';
+$games_url = 'https://teal-bavarois-241cb0.netlify.app';
 $community = 't.me/CryptoXwQ'; // Corrected variable name
 
 function LampStack($method, $datas = []) {
