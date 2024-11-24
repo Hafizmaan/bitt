@@ -97,7 +97,7 @@ const location = useLocation();
 
             
 
-          <TonConnectUIProvider manifestUrl="YOUR BOT APP URL/tonconnect-manifest.json">
+          <TonConnectUIProvider manifestUrl="https://teal-bavarois-241cb0.netlify.app/tonconnect-manifest.json">
         
           <UserProvider>
             <AnimatePresence mode="wait">
